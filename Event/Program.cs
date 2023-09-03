@@ -86,6 +86,4 @@ namespace Event
             return number;
         }
     }
-
-
 }
