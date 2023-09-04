@@ -24,6 +24,7 @@ namespace Event
                 }
                 Console.WriteLine("Введите либо 1, либо 2");
                 int number = reader.Read();
+                ShowNumber(number);
                 nameHandler.GetSortedNames(names, number);
                 foreach (string i in names)
                 {
